@@ -1,0 +1,111 @@
+*{
+	margin: 0;
+	padding: 0;
+
+}
+body{
+	background: #fff;
+}
+header{
+	width: 100%;
+	overflow: hidden;
+	background: #252932;
+	margin-bottom: 20px; 
+	font-size: 15px;
+	padding: 2px 0px;
+	
+}
+
+nav{
+	background: #252932;
+	margin-top: 0px;
+	
+}
+
+nav ul{
+	list-style: none;
+	padding: 0;
+	margin: 00;
+	
+}
+nav >ul >li {
+	float: right;
+
+}
+nav ul li a{
+	text-decoration: none;
+	color: #fff;
+	display: block;
+	padding: 10px 20px;
+	font-weight: bold;
+-webkit-transition:all 500ms ease;
+-o-transition:all 500ms ease;
+transition:all 500ms ease;
+border-radius: 50px;
+	
+}
+nav ul li a:hover{
+	background: #CAB412;
+}
+nav >ul >li:hover div{
+	display:table;
+}
+/*submenu*/
+nav ul li div{
+	width: 100%;
+	position: absolute;
+	left: 0;
+	background: #ccc;
+	box-sizing:border-box;
+	display: none;
+
+}
+nav ul li div ul{
+width: 5%;
+display: table-cell;
+border-right: 1px solid rgba(255,255,255,.5)
+box-sizing:border-box;
+}
+nav ul li div ul:last-child{
+border:none;
+}
+nav ul li div ul .titulo {
+	background: #000;
+	color: #fff;
+}
+nav ul li div ul .titulo a{
+	color:#fff;
+	padding: 10px 20px;
+}
+.titulo.azul {background: #3498db;}
+.titulo.verde {background: #27ae60;}
+.titulo.naranja {background: #e67e22;}
+.titulo.rojo {background: #c0392b; color:#000;}
+.titulo.marron {background: #8E1A1A;}
+.titulo.verdeC {background: #479E98;}
+.titulo.morado {background: #90479E;}
+
+nav ul li div ul .titulo a:hover{
+	background: none;
+}
+nav ul li div ul li a{
+	color:#000;
+}
+nav ul li div ul li a:hover{
+	color: #fff;
+	}
+
+	header .LOGO{
+	color: #FFFFFF;
+	font-size: 50px;
+	line-height: 60px;
+	float: left;	
+}
+
+.wrapper {
+	width: 90%;
+	max-width: 1000px;
+	margin:auto;
+	overflow: hidden;
+	display: block;	
+}
