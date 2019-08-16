@@ -1,0 +1,8 @@
+1-. bd: Contiene la bases de datos y querys
+2-. clases: Contienes la clase de de cada uno de los datos 
+3-. img: contiene cada un de las imagenes que se van a utilizar en el sistema.
+4-. js: Archvos js de la pagina
+5-. librerias: contiene cada una de las librerias que a utlizar en el sistema de
+ventas de nuestro proyecto
+6-. procesos:
+7-. vistas:
